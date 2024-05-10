@@ -5,41 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <h1 class="header__title">Reliable, efficient delivery</h1>
+      <h2 class="header__subtitle">Powered by Technology</h2>
+      <p class="header__caption">Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</p>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="features">
+        <section class="first-card">
+          <div class="feature border--cyan">
+            <h2 class="feature__title">Supervisor</h2>
+            <p class="feature__caption">Monitors activity to identify project roadblocks</p>
+            <img src="./images/icon-supervisor.svg" alt="Supervisor Icon" class="feature__icon">
+          </div>
+        </section>
+        <section class="middle-card">
+          <div class="feature border--red">
+            <h2 class="feature__title">Team Builder</h2>
+            <p class="feature__caption">Scans our talent network to create the optimal team for your project</p>
+            <img src="./images/icon-team-builder.svg" alt="Team Builder Icon" class="feature__icon">
+          </div>
+          <div class="feature border--orange">
+            <h2 class="feature__title">Karma</h2>
+            <p class="feature__caption">Regularly evaluates our talent to ensure quality</p>
+            <img src="./images/icon-karma.svg" alt="Karma Icon" class="feature__icon">
+          </div>
+        </section>
+        <section class="last-card">
+          <div class="feature border--blue">
+            <h2 class="feature__title">Calculator</h2>
+            <p class="feature__caption">Uses data from past projects to provide better delivery estimates</p>
+            <img src="./images/icon-calculator.svg" alt="Calculator Icon" class="feature__icon">
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+  
+  
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+  
+  
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+  
+  
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+  
+  
 
   
   <footer>
+    <div class="container">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/m-rooeintan">M.A.R</a>
     </p>
+  </div>
   </footer>
 </body>
 </html>
